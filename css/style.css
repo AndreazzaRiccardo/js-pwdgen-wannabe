@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    margin: 200px auto;
+}
+
+h1 {
+    border: 1px solid black;
+    text-align: center;
+}
