@@ -16,5 +16,12 @@ favoriteColor = favoriteColor.toString();
 console.log(favoriteColor, typeof favoriteColor);
 
 // Generazione password
-let genPassword = `${firstName}${lastName}${favoriteColor}21`;
+const genPassword = `${firstName}${lastName}${favoriteColor}21`;
 console.log(genPassword, typeof genPassword);
+
+// Messaggio per l'utente
+const userPassword = `Your Password is: ${firstName}${lastName}${favoriteColor}21`;
+console.log(userPassword, typeof userPassword);
+
+// Stampa in pagina
+document.getElementById("user-password").innerHTML = userPassword;

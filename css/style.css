@@ -13,3 +13,9 @@ h1 {
     border: 1px solid black;
     text-align: center;
 }
+
+p {
+    border: 1px solid black;
+    padding: 1rem;
+    font-weight: bolder;
+}
